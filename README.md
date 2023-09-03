@@ -1,6 +1,6 @@
-# Function Smoothener
+# Function Smoother
 
-- Function smoothener for college assignment.
+- Function smoother for college assignment.
 - Uses weighted moving average.
 - License: GNU
 
@@ -9,7 +9,7 @@
 ```bash
 $ make run # Build and run the project.
 $ make build # Build the project.
-$ make graph # View the graphs of the normal, noisy, and smoothened function.
+$ make graph # View the graphs of the normal, noisy, and smoothed function.
 ```
 
 ## Graphs:
@@ -22,6 +22,6 @@ Noisy Function:
 
 ![Noisy Function](./noisy.png)
 
-Smoothened Function:
+Smoothed Function:
 
-![Smoothened Function](./smoothened.png)
+![Smoothed Function](./smoothed.png)

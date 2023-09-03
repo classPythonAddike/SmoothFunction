@@ -27,9 +27,9 @@ int main() {
     printf("Bisection method with noise: %f\n", approx_bisection(x_lower, x_upper, tolerance, read_data));
     printf("False Position method with noise: %f\n", approx_false_position(x_lower, x_upper, read_data(x_lower), tolerance, read_data));
 
-    smoothen_data(); // Smoothen the noisy data present.
-    write_data("smoothened.dat");
+    smooth_data(); // Smoothen the noisy data present.
+    write_data("smooth.dat");
 
-    printf("Bisection method after smoothening: %f\n", approx_bisection(x_lower, x_upper, tolerance, read_data));
-    printf("False Position method after smoothening: %f\n", approx_false_position(x_lower, x_upper, read_data(x_lower), tolerance, read_data));
+    printf("Bisection method after smoothing: %f\n", approx_bisection(x_lower, x_upper, tolerance, read_data));
+    printf("False Position method after smoothing: %f\n", approx_false_position(x_lower, x_upper, read_data(x_lower), tolerance, read_data));
 }

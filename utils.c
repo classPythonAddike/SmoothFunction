@@ -91,7 +91,7 @@ float weighted_average_h_x(struct data_point *start, int width) {
 }
 
 // Smoothen the data using weighted moving average.
-void smoothen_data() {
+void smooth_data() {
     int width = 100;
     for (int i = width; i < NUM_SAMPLES - width; i++) {
         data[i].h_x = weighted_average_h_x(data + i - width, width);

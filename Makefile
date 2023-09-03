@@ -7,4 +7,4 @@ run: build
 graph:
 	gnuplot -e "set grid; plot 'normal.dat' with linespoint lw 1 ps 0 pt 5" -p
 	gnuplot -e "set grid; plot 'noisy.dat' with  linespoint lw 1 ps 0 pt 5" -p
-	gnuplot -e "set grid; plot 'smoothened.dat' with  linespoint lw 1 ps 0 pt 5" -p
+	gnuplot -e "set grid; plot 'smooth.dat' with  linespoint lw 1 ps 0 pt 5" -p

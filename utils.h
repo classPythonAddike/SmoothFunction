@@ -12,6 +12,6 @@ void discretize_polynomial(float, float, polynomial);
 float read_data(float);
 void write_data(char*);
 
-void smoothen_data();
+void smooth_data();
 
 #endif
