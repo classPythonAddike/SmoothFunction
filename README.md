@@ -24,4 +24,4 @@ Noisy Function:
 
 Smoothed Function:
 
-![Smoothed Function](./smoothed.png)
+![Smoothed Function](./smooth.png)
